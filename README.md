@@ -3,6 +3,9 @@
 ## Bachelor Thesis
 [Anomaly Detection Using Time Series Analysis for Vibration Signals](https://document.pdf) - Darja Strahlberg, Bachelor Thesis, TUHH 2020
 
-The overall structure is composed of 3 parts: a CNN for capturing correlation between signals, a RNN for linking up the dependencies in the temporal dimension and the residual links for fast training and overfitting prevention. We carefully restrain the parameter space, making the total model have a similar size as autogression models.
+The overall structure is composed of 3 parts: an ARIMA model for forecasting the vibration signal, Confidence Interval build in the correlation to the forecast and an evaluation of data points lying outside of the confidence interval. 
 
-Includes the code used in the Bachelor Thesis to test the ARIMA predictive maintennace model on time series data
+## Dependencies
+```Python == 3.7, numpy, statsmodels```
+## How to Run
+Preprocessing: run `bash ./sh/mklog.sh` to create empty `log` `save` folders.
