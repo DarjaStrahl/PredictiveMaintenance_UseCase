@@ -1,4 +1,4 @@
-# Predictive Maintenance: Rim Cleaning Machine Use Case
+# Anomaly Detection: Rim Cleaning Machine Use Case
 
 ## Bachelor Thesis
 [Anomaly Detection Using Time Series Analysis for Vibration Signals](https://document.pdf) - Darja Strahlberg, Bachelor Thesis, TUHH 2020
@@ -8,4 +8,4 @@ The overall structure is composed of 3 parts: an ARIMA model for forecasting the
 ## Dependencies
 ```Python == 3.7, numpy, statsmodels```
 ## How to Run
-Preprocessing: run `bash ./sh/mklog.sh` to create empty `log` `save` folders.
+Load the data, clicj run in the jupiter Notebook to excetute cells and show the results. 
