@@ -7,5 +7,12 @@ The overall structure is composed of 3 parts: an ARIMA model for forecasting the
 
 ## Dependencies
 ```Python == 3.7, numpy, statsmodels```
+
+## Explanation
+The file `Test1Day.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. ARIMA forecast for 60 data points, 1 hour, confidence interval are computed. No anomaly was identified.
+
+The file `Test1Day_night.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. ARIMA forecast for 200 data points, 3 hours, confidence interval are computed. Anomaly, as a state of the pump in the night, was successfully identified.
+
+
 ## How to Run
-Load the data, clicj run in the jupiter Notebook to excetute cells and show the results. 
+Load the data, click run in the jupiter Notebook to excetute cells and show the results. 
