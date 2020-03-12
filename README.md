@@ -13,6 +13,11 @@ The file `Test1Day.ipynb` evaluates data, collected during one day, with the fre
 
 The file `Test1Day_night.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. ARIMA forecast for 200 data points, 3 hours, confidence interval are computed. Anomaly, as a state of the pump in the night, was successfully identified.
 
+The file `Test1Day_characterisation.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. Autocorrelation, partial autocorrelation plots and a seasonal decomposition are computed. 
+
+The file `ComparativeAnalysis.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. Different forecast methods are computed: mean, simple average and etc.  
+
+The file `ARIMA_choosing.ipynb` evaluates data, collected during one day, with the frequency 1 minuted. Grid search for the best parameter evaluation for ARIMA. 
 
 ## How to Run
 Load the data, click run in the jupiter Notebook to excetute cells and show the results. 
